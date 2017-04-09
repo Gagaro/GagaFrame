@@ -5,5 +5,8 @@ class BaseShow:
     def initialize(self):
         pass
 
-    def run(self, event):
+    def reset(self):
+        pass
+
+    def run(self, event=None):
         pass

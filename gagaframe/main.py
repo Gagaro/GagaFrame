@@ -2,6 +2,7 @@ import sys
 
 import pygame
 
+from gagaframe.shows.life import LifeShow
 from gagaframe.shows.pictures import PictureShow
 from gagaframe.utils import SIZE
 
@@ -12,7 +13,8 @@ screen = pygame.display.set_mode(SIZE)
 
 clock = pygame.time.Clock()
 
-show = PictureShow(screen)
+#show = PictureShow(screen)
+show = LifeShow(screen)
 show.initialize()
 while True:
     for event in pygame.event.get():
