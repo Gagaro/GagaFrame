@@ -1,6 +1,6 @@
 import pygame
 
-SIZE = WIDTH, HEIGHT = 320, 240
+SIZE = WIDTH, HEIGHT = 480, 320
 
 
 def scale_keep_ratio(img, size):
