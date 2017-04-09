@@ -13,5 +13,8 @@ setup(
     install_requires=[
         'pygame',
     ],
+    console_scripts=[
+        'gagaframe=gagaframe.main:main'
+    ],
     zip_safe=False
 )

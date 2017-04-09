@@ -2,7 +2,7 @@ class BaseShow:
     def __init__(self, screen):
         self.screen = screen
 
-    def initialize(self):
+    def initialize(self, options, args):
         pass
 
     def reset(self):
